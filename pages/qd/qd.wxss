@@ -1,0 +1,8 @@
+.qd_button{
+  width: 100%;
+  height: 250rpx
+}
+.text{
+  width: 100%;
+  text-align: center
+}

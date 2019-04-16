@@ -1,0 +1,6 @@
+<!--pages/qd/qd.wxml-->
+<calendar lunar='true' weeks-type='cn' days-color='{{daysColor}}' binddayClick='dayClick'/>
+<button  type='primary' wx:if='{{qd==false}}' bindtap='qd'>点击签到</button>
+<button  type='warn' wx:else >今日已签到</button>
+
+<view class='text'>继续加油，您已累计签到{{days}}天</view>

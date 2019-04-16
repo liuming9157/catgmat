@@ -1,0 +1,23 @@
+<view class="page">
+<view class='box'>
+  <view class='hd_text'>推荐课程</view>
+  <view class='hd_text'>{{ad}}</view>
+  <view class='hd_text'>微信：{{wechat}}</view>
+  <view class='hd_text'>QQ：{{qq}}</view>
+  <view class='hd_text'>客服电话：{{tel}}</view>
+  <view class='hd_text'>GMAT学习交流群：{{qqgroup}}</view>
+</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class='choseQuestion'>
+      {{choseQuestionBank}}
+    </view>
+  </picker>
+
+  <view class='startAnswer' bindtap='chose'>
+    确认选择
+  </view>
+
+</view>
+
+
+<view class='foot'>猫叔GMAT，国内领先的GMAT培训</view>

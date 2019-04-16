@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "背词",
+  "usingComponents": {
+    "calendar": "plugin://calendar/calendar"
+  }
+}

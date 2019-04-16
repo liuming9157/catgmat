@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/choiceMain/choiceMain",
+    "pages/analysis/analysis",
+  
+    "pages/register/register",
+    "pages/result/result",
+    "pages/answerCard/answerCard",
+    "pages/personalInformation/personalInformation",
+    
+    "pages/overAnswer/overAnswer",
+    "pages/testHistory/testHistory",
+    "pages/Me/Me",
+    "pages/singleChoiceExplain/singleChoiceExplain",
+    "pages/singleChoiceDetail/singleChoiceDetail",
+    "pages/historyResult/historyResult",
+    "pages/ranking/ranking",
+    "pages/words/words",
+    "pages/qd/qd"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1bd0bd",
+    "navigationBarTitleText": "猫叔GMAT",
+    "navigationBarTextStyle":"white"
+  },
+ "tabBar": {
+  "selectedColor": "#1bd0db",
+  "color": "#dae5e5",
+  "list": [
+    {
+      "text": "刷题",
+      "iconPath": "images/rank.png",
+      "selectedIconPath": "images/rankClick.png",
+      "pagePath": "pages/choiceMain/choiceMain"
+    },
+    {
+      "text": "背词",
+      "iconPath": "images/7-01.png",
+      "selectedIconPath": "images/6-01.png",
+      "pagePath": "pages/words/words"
+    },
+    {
+      "text": "我的",
+      "iconPath": "images/3-01.png",
+      "selectedIconPath": "images/5-01.png",
+      "pagePath": "pages/Me/Me"
+    }
+  ]
+},
+"plugins": {
+  "calendar": {
+    "version": "1.1.3",
+    "provider": "wx92c68dae5a8bb046"
+  }
+}
+}
